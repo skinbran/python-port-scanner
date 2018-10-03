@@ -14,13 +14,13 @@ Flags available:
 
   > -t : --target <br>
   Used to specify the target of the scan. Can be a single IP address, IP address range, or a subnet.
-  >> ex. -t 192.168.0.1 <br>
-  >> ex. -t 192.168.0.1 192.168.0.238 <br>
-  >> ex. -t 192.168.200.0/24
+  >> ex. `-t 192.168.0.1` <br>
+  >> ex. `-t 192.168.0.1 192.168.0.238` <br>
+  >> ex. `-t 192.168.200.0/24`
   
  > -p : --port <br>
   > Used to specify which port to scan. If not specified then ports 0 - 1025 will be scanned. Can specify 1 or more ports.
-  >> ex. -p 21 22 23
+  >> ex. `-p 21 22 23`
   
  > -u : --udp <br>
  flag to indicate to scan only the udp ports of the target.
