@@ -3,7 +3,7 @@
 This is a port scanner that utilizes python and different packages within python to scan ports of a desired target host/ipaddress. Options are available to conduct a TCP or UDP scan, traceroute, ping, and also to export the results of the scan to a pdf file.
 
 Required:
-> Python 3.6
+> Python 3.6 <br>
 > fpdf
 
 Sample script calls:
