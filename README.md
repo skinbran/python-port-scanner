@@ -2,6 +2,14 @@
 
 This is a port scanner that utilizes python and different packages within python to scan ports of a desired target host/ipaddress. Options are available to conduct a TCP or UDP scan, traceroute, ping, and also to export the results of the scan to a pdf file.
 
+Required:
+> Python 3.6
+> fpdf
+
+Sample script calls:
+ > `python IT567_Python_Script.py -t 192.168.0.1` <br>
+ > `python IT567_Python_Script.py -t 192.168.0.1 -p 21 22 -e`
+
 Flags available:
 
   > -t : --target <br>
@@ -26,8 +34,6 @@ Flags available:
  > -x : --ping <br>
  flag to ping the target address or range of addresses.
  
-Sample script calls:
- > `python IT567_Python_Script.py -t 192.168.0.1` <br>
- > `python IT567_Python_Script.py -t 192.168.0.1 -p 21 22 -e`
+
  
  
